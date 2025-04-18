@@ -76,20 +76,4 @@ To deploy an application, apply the YAML configuration file to your namespace:
 kubectl apply -k <path-to-overlays-environment> 
 ```
 
-# Useful Commands
-Here are some useful commands to help you manage your Kubernetes environment:
 
-``` bash=
-# List all pods in the current namespace
-kubectl get pods -n <>namespace>
-
-# Create a new Kubernetes namespace (e.g., "dev" or "sit")
-kubectl create ns <namespace-name>
-
-# Apply a YAML configuration file to create resources
-kubectl apply -f <path-to-yaml-file>
-```
-
-If you have any questions or encounter issues, please don't hesitate to open an issue or reach out to the community for assistance.
-
-Happy learning! 🚀
