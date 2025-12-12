@@ -4,6 +4,8 @@
 This project implements a CI/CD pipeline for a Node.js application using Jenkins and Docker, hosted on an AWS EC2 instance. The pipeline is designed to automate code integration, testing, and deployment, ensuring faster and more reliable delivery of updates. GitHub is integrated for version control, triggering automated builds upon code commits.
 
 
+![Alt text](project-architecture.png)
+
 
 
 ## Architecture
